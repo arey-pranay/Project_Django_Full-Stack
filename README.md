@@ -23,3 +23,7 @@ python manage.py migrate
 ### Create a superuser
 
 `python manage.py createsuperuser`
+
+### Adding a new app in our project
+
+`python mange.py startapp tweet`
