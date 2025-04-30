@@ -13,3 +13,13 @@ cd project-name
 python manage.py runserver
 ```
 
+
+### Commands to remove the migrations error
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### Create a superuser
+` python manage.py createsuperuser `
