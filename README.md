@@ -27,3 +27,16 @@ python manage.py migrate
 ### Adding a new app in our project
 
 `python mange.py startapp tweet`
+
+### Adding pillow for image usage
+
+`python -m pip install Pillow` (in the outer directory)
+
+### Freezing Pip
+
+`pip freeze > requirement.txt` (in the outer directory)
+
+### Migrations Needed
+
+`python manage.py makemigrations tweet`
+`python manage.py migrate`
